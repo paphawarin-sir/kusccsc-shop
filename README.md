@@ -1,6 +1,3 @@
-ได้ครับ เอาแบบข้อความธรรมดา (ไม่เป็น Markdown code block) สำหรับเอาไปใส่ `README.md` ได้เลย:
-
----
 
 KUSCCSC Shop
 
