@@ -1,0 +1,55 @@
+.success-page {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.success-icon { font-size: 64px; margin-bottom: 16px; }
+
+.success-page h2 { font-size: 26px; margin: 0 0 8px; }
+.success-sub { color: #888; font-size: 15px; margin-bottom: 32px; }
+
+.order-code-box {
+  background: #f0faf4;
+  border: 1.5px solid #b2e0c4;
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.oc-label { font-size: 13px; color: #888; margin: 0 0 8px; }
+.oc-value { font-size: 28px; font-weight: 800; color: #1a6b3a; letter-spacing: 1px; margin: 0 0 8px; }
+.oc-hint { font-size: 12px; color: #aaa; margin: 0; }
+
+.success-actions { display: flex; flex-direction: column; gap: 12px; }
+
+.btn-primary {
+  background: #1a6b3a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: #145530; }
+
+.btn-secondary {
+  background: none;
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  padding: 14px 24px;
+  font-size: 15px;
+  color: #555;
+  cursor: pointer;
+  width: 100%;
+}
+.btn-secondary:hover { background: #f5f5f5; }
+@media (max-width: 480px) {
+  .success-page { margin: 20px auto; padding: 24px 16px; }
+  .oc-value { font-size: 22px; }
+}
